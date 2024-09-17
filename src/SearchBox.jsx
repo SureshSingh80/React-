@@ -8,6 +8,15 @@ export default function SearchBox({updateInfo}){
 
     const API_URL=import.meta.env.VITE_API_URL;
     const API_KEY=import.meta.env.VITE_API_KEY;
+
+
+    // when react using VITE then- 
+    console.log("in env- naming should be VITE_VARIABLE-NAME");
+    console.log("During access time- import meta.env.VITE_VARIABLE-NAME");
+
+    // when react using create-react-app
+    console.log("in env- naming should be REACT_APP_VARIABLE-NAME");
+    console.log("During access time- process.env.REACT_APP_VARIABLE-NAME");
   
     let getWeatherInfo=async()=>{
          try
