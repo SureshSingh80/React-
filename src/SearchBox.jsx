@@ -35,7 +35,7 @@ export default function SearchBox({updateInfo}){
   
             };
             
-            console.log(jsonResponse);
+            setError(false);
             return result;
          }
          catch(err){

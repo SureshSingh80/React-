@@ -13,6 +13,7 @@ export default function WeatherApp(){
             <SearchBox updateInfo={updateInfo}></SearchBox>
             
              <InfoBox info={weatherInfo}></InfoBox>
+            
         </div>
     )
 }
